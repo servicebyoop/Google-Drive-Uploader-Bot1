@@ -7,8 +7,6 @@ from pykeyboard import InlineKeyboard, ReplyKeyboard
 from pyrogram import Client, filters
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ForceReply, InlineKeyboardButton
-                           InlineKeyboardMarkup, InputTextMessageContent,
-                           KeyboardButton
 import json
 from telegram.ext import CommandHandler, MessageHandler, Filters, Updater
 from telegram import ParseMode
